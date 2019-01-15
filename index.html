@@ -1,446 +1,207 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-	<title>ELLIOT M</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- link to main stylesheet -->
-	<!-- bootstrap 4.0.0-beta.2 -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<!-- main style -->
-	<link rel="stylesheet" type="text/css" href="css/main.css?v=2017.11.11_v2">
-
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments)};
-		gtag('js', new Date());
-
-		gtag('config', 'UA-107490980-1');
-	</script>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<style>
+		.toc {
+			margin-left: 30px;
+		}
+		.code {
+			margin-left: 30px;
+			color:#000000;
+			background-color:#ffffff;
+		}
+		.shell {
+			margin-left: 30px;
+			color:#000000;
+			background-color:#ffffff;
+		}
+	</style>
 </head>
+<body bgcolor="#d0d0b0"><br><br>
+<table align="center" cellpadding="50" border="1" bgcolor="#e0e0c0" width="620"><tbody><tr><td>
 
-<body>
-	<header>
-		<div class='slider-navigation'>
-			<div class='nav-pointer draggable'>
-				0/0
-			</div>
-		</div>
-	</header>
-	<div class='site-container'>
-		<!-- select style button -->
-		<div class="btn-group" id="changestyle">
-			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			<span id="selstyle">Style Default</span>
-			</button>
-			<ul class="dropdown-menu">
-			<li><a class="dropdown-item" href="#" data-val="default">Style Default</a></li>
-			<li><a class="dropdown-item" href="#" data-val="space">Style Space</a></li>
-			<li><a class="dropdown-item" href="#" data-val="snow">Style Snow</a></li>
-			</ul>
-		</div>
-		<section class='intro'>
-			<div id='particles-js'></div>
-			<div class='wrap'>
-				<div class='content'>
-					<div class="profile-card">
-						<header>
-							<!-- avatar -->
-							<a>
-								<img src="img/em.jpg" class="unselectable">
-								<!-- TODO take good headshot photo and make it 278px x 278px -->
-							</a>
-							<!-- name -->
-							<h1 class="unselectable">Elliot Mason</h1>
-							<!-- role -->
-							<h2 class="unselectable">Full Stack Developer</h2>
-						</header>
-						<div class="profile-bio">
-							<p class="unselectable">
-								Technology Enthusiast
-							<!-- 	<br>Passionate Projects -->
-							</p>
-						</div>
-						<!-- social links -->
-						<ul class="profile-social-links">
-							<li>
-								<a target="_blank" href="https://www.linkedin.com/in/emason101/">
-									<i class="fa fa-lg fa-linkedin"></i>
-								</a>
-							</li>
-							<li>
-								<a target="_blank" href="https://stackoverflow.com/users/4739018/daniel-h?tab=profile">
-									<i class="fa fa-lg fa-stack-overflow"></i>
-								</a>
-							</li>
-							<li>
-								<a target="_blank" href="https://github.com/ejmason101">
-									<i class="fa fa-lg fa-github-alt"></i>
-								</a>
-							</li>
-						<!-- 	<li>
-								<a target="_blank" href="https://www.facebook.com/dalin.huang.39">
-									<i class="fa fa-lg fa-facebook"></i>
-								</a>
-							</li> -->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="parallax-window" data-parallax="scroll" data-image-src="img/CargoContainers_1920x1080.jpg"></div>
-		<section>
-			<div class="about-me">
-				<div class="text-center">
-				<img class="unselectable" src="img/about-me.png" height="100" width="550">
-				<br><br>
-				</div>
-				<div class="clearfix"></div>
-				<div class="about-me__content" id="terminal-start">
-					<p>Last login: Thu Oct 12 00:28:38 2017 from cpe44d9e79bd14b-cma84e3fd1a7d0.cpe.net.cable.rogers.com</p>
-<pre style="border: none;">
-		 __|  __|_  )
-		 _|  (     /   Amazon Linux AMI
-		___|\___|___|
+<h1>Assignment 1</h1>
 
-Amazon Linux version 2017.09 is available.
+<ol>
+	<li><b>Learn how to use a terminal:</b> If you have never used a terminal window (a.k.a. command shell, a.k.a. console), spend a little time becoming familiar with it. In Windows, click on the logo button, and type in "cmd". In Linux, there is usually an obvious icon to open one, perhaps in the "accessories" menu. You should know how to use the "cd" command to change directories. You should also know how to use the "ls" command ("dir" on Windows) to list the contents of the current directory. It might help to Google for "how to use the windows command shell", or something like that.</li><br><br>
+
+	<li><b>Make sure you have a current version of the Java Development Kit (JDK) installed:</b><br>
+		Open a command shell or terminal. Enter this command:
+<pre class="shell">javac -version
 </pre>
+		If it prints something like this,
+<pre class="shell">javac 11.0.1
+</pre>
+		then you already have a current version of the JDK installed. (Yay! Go to step 2.)
+		If "javac" is not a recognized command, then you need to install the JDK. If you have version 1.8, that should suffice for this class. If you have an earlier version, well, it might work.
 
-					<br><br>
-					<div class="command">
-						<!-- email -->
-						<p>echo $email</p>
-						<span class="hideme">email: dhuan023@gmail.com</span>
-						<!-- phone -->
-						<p>echo $phone</p>
-						<span class="hideme">phone: (647)-927-XXXX</span>
-						<!-- address -->
-						<p>echo $address</p>
-						<span class="hideme">address: Ottawa, ON, Canada</span>
-						<!-- education -->
-						<p>echo $education</p>
-						<span class="hideme">University of Ottawa • 2009 - 2014<br>
-						BSc: Specialization in Computer Science; Minor in Economics;</span>
-						<!-- eligible_to_work -->
-						<p>echo $eligible_to_work</p>
-						<span class="hideme">I'm Permanent Resident of Canada since 2006</span>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="parallax-window-half" data-parallax="scroll" data-image-src="img/test-oct.png"></div>
-		<section class="flx-center">
-			<div class="text-center">
+		<h3>If you use Ubuntu</h3>
+<pre class="shell">sudo apt-get install default-jdk
+</pre>
+			or Google for other ways to do it.
+		<h3>If you use Windows</h3>
+			<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Download and install it</a>. Get the JDK (Java Development Kit),
+			not the JRE (Java Runtime Environment). The JDK includes the compiler (javac). the JRE does not include the compiler. You don't need the
+			"Development Kit with Demos and Samples", just get the "Development Kit". Unless your computer is really old, you probably want the 64-bit version.
+		<h3>Then test to see if you did it right</h3>
+<pre class="shell">javac -version
+</pre>
+			If your command shell still cannot find javac, then you probably need to tweak your PATH environment variable to tell your computer
+			where javac is located. First, figure out where javac is located. (Where did you install it to? Find it.) Next, use Google to learn how to adjust the PATH environment variable on your operating system. Add the folder where javac is located to the list so your computer will be able to find it. (Make sure to <b>add</b> it do the list of directories instead of <b>replacing</b> the list! Also, make sure that there are not other java directories in your path.) Then, test it again.
+	</li><br><br>
+	
+	<li><b>Write a simple java program that counts from 0 to 99:</b> Open your favorite text editor. (For this step, please use a simple text editor, not
+	something integrated with the Java compiler. You will use an IDE in later steps, but I want you to prove that you can do it both ways.
+	On Linux, some good choices might be Kate, KWrite, GEdit, Leafpad, nano, pico, vi, or emacs. On Windows, Notepad or Notepad++ would be good.) Make a file
+	called Main.java with the following contents:
+<pre class="code">import java.io.PrintWriter;
 
-				<!-- Block 4 (SHA-256 blockchain) -->
-				<div class="one-block latest-block">
-				<p class="h4 text-center">Block #: 004</p>
-				<p><label>Data:</label></p>
-				<div class="block-data">
-					<p>
-					<label>Title:</label><b>Full Stack Developer</b></p>
-					<p>
-					<label>Company:</label>FarmLead.com</p>
-					<p>
-					<label>Stack:</label>MySQL, PHP7, JS, HTML5, CSS3, AWS</p>
-					<p>
-					<label>Time:</label>Feb 2017 - Present</p>
-				</div>
-				<div>
-					<br>
-					<p class="truncate">
-					<small><label>Hash: </label>2ced301cea95102353465b5c96c2c313ca1ac39c593586fdbcf0692ed50e9538</small>
-					<br>
-					<small><label>Previous Hash: </label>878d1ef78d76e1cd006b89f323de4dce4064fafe2c38d5c711fe83f5e04bb0b2</small>
-					</p>
-				</div>
-				</div>
-
-
-				<!-- Block 3 (SHA-256 blockchain) -->
-				<div class="one-block">
-				<p class="h4 text-center">Block #: 003</p>
-				<p><label>Data:</label></p>
-				<div class="block-data">
-					<p>
-					<label>Title:</label><b>Software Application Developer</b></p>
-					<p>
-					<label>Company:</label>i-Sight Software</p>
-					<p>
-					<label>Stack:</label>PostgresSQL, Node.js, JS, HTML5, CSS3</p>
-					<p>
-					<label>Time:</label>Mar 2016 - Feb 2017</p>
-				</div>
-				<div>
-					<br>
-					<p class="truncate">
-					<small><label>Hash: </label>878d1ef78d76e1cd006b89f323de4dce4064fafe2c38d5c711fe83f5e04bb0b2</small>
-					<br>
-					<small><label>Previous Hash: </label>830e1d948d6c7dd090e804c9eb94b412f2750ac19cb69d4040ae11dff1d8ef6d</small>
-					</p>
-				</div>
-				</div>
-
-				<br>
-
-				<!-- Block 2 (SHA-256 blockchain) -->
-				<div class="one-block" style="">
-				<p class="h4 text-center">Block #: 002</p>
-				<p><label>Data:</label></p>
-				<div class="block-data">
-					<p>
-					<label>Title:</label><b>Front End Developer</b></p>
-					<p>
-					<label>Company:</label>FarmLead.com</p>
-					<p>
-					<label>Stack:</label>Vue.js, CoffeeScript, JS, HTML5, CSS3</p>
-					<p>
-					<label>Time:</label>June 2016 - Nov 2016</p>
-				</div>
-				<div>
-					<br>
-					<p class="truncate">
-					<small><label>Hash: </label>830e1d948d6c7dd090e804c9eb94b412f2750ac19cb69d4040ae11dff1d8ef6d</small>
-					<br>
-					<small><label>Previous Hash: </label>0fdf18af6009579cf35fdc82d130e658bca9037705b3a87142a27daeff138d78</small>
-					</p>
-				</div>
-				</div>
-
-
-				<!-- Block 1 (SHA-256 blockchain) -->
-				<div class="one-block">
-				<p class="h4 text-center">Block #: 001</p>
-				<p><label>Data:</label></p>
-				<div class="block-data">
-					<p>
-					<label>Title:</label><b>Web Developer</b></p>
-					<p>
-					<label>Company:</label>Events.com</p>
-					<p>
-					<label>Stack:</label>LAMP, PHP5, JS, HTML5, CSS3</p>
-					<p>
-					<label>Time:</label>Mar 2015 - Feb 2016</p>
-				</div>
-				<div>
-					<br>
-					<p class="truncate">
-					<small><label>Hash: </label>0fdf18af6009579cf35fdc82d130e658bca9037705b3a87142a27daeff138d78</small>
-					<br>
-					<small><label>&nbsp;</label>"Genesis Block"</small>
-					</p>
-				</div>
-				</div>
-
-				<div class="text-center h5">SHA-256 blockchain</div>
-			</div>
-				<!-- <div class="text-center push-to-bottom"><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=106349&s=16' title='vistors'></div> -->
-		</section>
-		<div class="parallax-window" data-parallax="scroll" data-image-src="img/test-oct-6.png"></div>
-		<!-- =================== script =================== -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-		<script src="lib/parallax.js-1.4.2/parallax.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-
-		<!-- particles js -->
-		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-		<!-- bootstrap 4.0.0-beta.2 -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-		<!-- main js file -->
-		<script src="js/main.js"></script>
-
-		<script>
-		$(document).ready(function() {
-
-			styleDefault();
-
-			$('#changestyle .dropdown-menu a').click(function(){
-				var style = $(this).data('val');
-				switch(style) {
-					case 'default':
-						styleDefault();
-						 break;
-					case 'space':
-						styleSpace();
-						break;
-					case 'snow':
-						styleSnow();
-						break;
-					default:
-						styleDefault();
-				}
-				$('#selstyle').text($(this).text());
-			});
-
-			/*-------------------------------
-				terminal linux style
-			-------------------------------*/
-			var about_me_content_displayed = false;
-			var $lines = $('.command p');
-			$lines.hide();
-
-			var lineContents = [];
-			var output = [];
-
-			var terminal = function() {
-				var skip = 0;
-				typeLine = function(idx) {
-				idx == null && (idx = 0);
-				var element = $lines.eq(idx);
-				var content = lineContents[idx];
-				if(typeof content == "undefined") {
-					$('.skip').hide();
-					return;
-				}
-				var charIdx = 0;
-
-				// console.log(idx);
-
-				var typeChar = function() {
-					var rand = Math.round(Math.random() * 150) + 20;
-
-					setTimeout(function() {
-					var char = content[charIdx++];
-					element.append(char);
-					if(typeof char !== "undefined")
-						typeChar();
-					else {
-						element.append('<br/><span class="output">' + output[idx] + '</span>');
-						element.removeClass('active');
-						typeLine(++idx);
-					}
-					}, skip ? 0 : rand);
-				}
-				element.append('[ec2-user@ip-127-0-0-1 ~]$ ').addClass('active');
-				typeChar();
-				}
-
-				$lines.each(function(i) {
-				lineContents[i] = $(this).text();
-				output[i] = $(this).next('span').html();
-				$(this).text('').show();
-				});
-				typeLine();
-			}
-
-			$(window).scroll(function() {
-				 var hT = $('#terminal-start').offset().top,
-					 hH = $('#terminal-start').outerHeight(),
-					 wH = $(window).height(),
-					 wS = $(this).scrollTop() - 250;
-				 if (wS > (hT+hH-wH) && !about_me_content_displayed){
-				about_me_content_displayed = true;
-				terminal();
-				 }
-			});
-			// end terminal style ------------------------------------
-
-
-			$('section').each(function() {
-				$('.slider-navigation').prepend('<div class="tick"></div>');
-			});
-
-			$('.tick').on('click', function() {
-				var tickIndex = $(this).index();
-				$('body').scrollTop($(window).height() * tickIndex);
-			});
-
-			updatePos();
-
-		}); // end document ready
-
-
-		var isDragging = false;
-		var sliderTop, pointerPos, currentSection;
-
-		var bodyHeight = $('body').height();
-		var sliderHeight = $('.slider-navigation').height();
-		var elementHeight = $('section').height();
-		var sectionAmount = $('section').length;
-		var scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight());
-
-
-		var waitForFinalEvent = (function() {
-			var timers = {};
-			return function(callback, ms, uniqueId) {
-				if (!uniqueId) {
-					uniqueId = "resize";
-				}
-				if (timers[uniqueId]) {
-					clearTimeout(timers[uniqueId]);
-				}
-				timers[uniqueId] = setTimeout(callback, ms);
-			};
-		})();
-
-
-		function updatePos() {
-			currentSection = $(window).scrollTop() / elementHeight;
-			currentSectionNum = Math.ceil(currentSection + 0.01);
-			sliderTop = $(window).scrollTop() / scale;
-			$('.nav-pointer').css('top', sliderTop).text(currentSectionNum + '/' + sectionAmount);
+public class Main {
+	public static void main(String[] args) throws Exception {
+		PrintWriter out = System.console().writer();
+		for(int i = 0; i &lt; 100; i++) {
+			out.println(i);
 		}
+	}
+}
+</pre>
+	</li><br><br>
 
-		function sliderMove(e) {
-			$('body').scrollTop(parseInt(e) * scale);
-		}
+	<li><b>Compile it.</b>
+<pre class="shell">javac Main.java
+</pre>
+	(If you get a compiler error, fix it and compile again.)
+	Then, run your program.
+<pre class="shell">java Main
+</pre>
+	It should print
+<pre>0
+1
+2
+...
+97
+98
+99
+</pre>
+	Yay! You have now compiled a program in Java.
+	</li><br><br>
 
-		$(window).scroll(function() {
-			if (!isDragging) {
-				updatePos();
-			}
-		});
+	<li><b>Write a shell script</b> (or batch file, if you use Windows) that will compile and run your code: If you use Linux, make a
+		text file named build.bash with this content:
+<pre class="code">#!/bin/bash
+set -u -e
+javac Main.java
+java Main
+</pre>
+		(You do not really need to know what those first two lines do, but I will tell you anyway in case you want to know:
+		The first line, #!/bin/bash, tells it which shell language you are using. Linux supports many different shells. In
+		this case, we are using Bash, which is a popular choice. The second line, set -u -e, tells it to abort if any errors occur. If
+		it fails to compile, you probably do not want it to try to run an old version of the program--that could be confusing.
+		You should understand what lines 3 and 4 do, however.)<br>
+		Make your shell script executable with this command:
+<pre class="shell">chmod 755 build.bash
+</pre>
+		Then test it
+<pre class="shell">./build.bash
+</pre>
+		It should build your program and then run it. If it doesn't work, figure out why, and fix it. To make the output
+		easier to read, I like to make my build script print blank lines beween commands, like this:
+<pre class="code">#!/bin/bash
+set -u -e
+echo ""
+echo ""
+echo ""
+echo "Building..."
+javac Main.java
+echo ""
+echo ""
+echo ""
+echo "Running..."
+java Main
+</pre>
+	Now you have made a Bash script. If you use Windows, omit the first two lines from your script, and save it with the
+	extension ".bat" instead of ".bash". Also, on Windows, you do not need to specify "./" to execute a script in the current
+	folder because Windows looks in the current folder by default. So, you can execute your script with this command:
+<pre class="shell">build.bat
+</pre>
+	</li><br><br>
 
+	<li><b>Install Eclipse</b> (if it is not already installed). Eclipse is an Integrated Development Environment (IDE). Translation: Eclipse is a big
+	bloated tool that helps you write java programs. It is integrated with the Java compiler. It compiles in the background and instantly identifies
+	errors. It includs a debugger, and many tools that you will never use.<br>
+	If you use Ubuntu,
+<pre class="shell">sudo apt-get install eclipse
+</pre>
+		On my machine, Eclipse crashed when I ran it for the first time. I Googled for the solution, and found
+		<a href="http://stackoverflow.com/questions/10165693/eclipse-cannot-load-swt-libraries">this</a>.
+		The highly-rated solution worked for me.<br><br>
+		If you use Windows, Google for "eclipse download", and go from there.<br><br>
+		(The first time you run Eclipse, you will need to tell it where you want to store your work, and close an annoying "welcome" page.)
+	</li><br><br>
 
-		$(window).resize(function() {
-			waitForFinalEvent(function() {
-				bodyHeight = $('body').height();
-				sliderHeight = $('.slider-navigation').height();
-				elementHeight = $('section').height();
-				sectionAmount = $('section').length;
-				scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight());
+	<li><b>Make a new project in Eclipse</b>:<br>
+		Click on "File-&gt;new-&gt;project". Choose "Java Project", and click "Next". Name your project "Assignment1". Click "Use default JRE". Click "Finish".
+	</li><br><br>
 
-				updatePos();
-			}, 500, "resizing");
-		});
+	<li><b>Make a new class</b>: In the "Package Explorer" pane, right-click on "src", then click on "New-&gt;class". Name your class "Assignment1", and click "Finish". It
+		will make a file named "Assignment1.java" for you. Paste in this code (replacing any code already in that file):
+<pre class="code">import javax.swing.JButton;
+import javax.swing.JFrame;
 
+public class Assignment1 extends JFrame{
+    public Assignment1() throws Exception{
+        this.setTitle("Assignment 1");
+        this.setSize(400,300);
+        this.getContentPane().add(new JButton("Click"));
+        this.setVisible(true);
+    }
 
+    public static void main(String[] args) throws Exception{
+        new Assignment1();
+    }
+}
+</pre>
+	Save your changes (control-s).
+	</li><br><br>
 
-		$(".draggable").draggable({
-			axis: "y",
-			containment: "parent",
-			start: function() {
-				isDragging = true;
-				$('body').addClass('dragging');
-			},
-			drag: function() {
-				pointerPos = $(this).css('top');
-				sliderMove(pointerPos);
-				updatePos();
-			},
-			stop: function() {
-				isDragging = false;
-				$('body').removeClass('dragging');
-			}
-		});
+	<li><b>Run your program</b> by pressing the "play" button. (It is a round button with a green background and a white triangle.)
+	You should see a window titled "Assignment 1". The whole window is filled with a big button that says "Click". When you click it, nothing happens,
+	(except the button changes color to show that you are pressing it). Yay! Now you have used an IDE to make a program.
+	Knowing how to use an IDE will save you a lot of time later. Take a little time to explore Eclipse. (It is a big confusing
+	program, but you will probably have an easier time with it later if you preemptively look around a little bit while you do not yet have any
+	pressing deadlines.)
+	</li><br><br>
 
-		// Steve Jobs Quotes
-		// console.log("\n \t Your work is going to fill a large part of your life,\n and the only way to be "+
-		// 			"truly satisfied is to do what you \n believe is great work. And the only way to do great"+
-		// 			" work \n is to love what you do. If you haven't found it yet, keep \n looking. Don't settle."+
-		// 			" As with all matters of the heart, \n you'll know when you find it.\n\n\n \t\t\t\t\t\t\t\t\t\t\t "+
-		// 			"Steve Jobs \n\n");
+	<li><b>Break free of the IDE:</b> Figure out where Eclipse put the source code. That is, find Assignment1.java.
+		Copy it into another folder (outside of the workspace folder used by Eclipse). Using a simple text editor, write a build script that
+		will compile and run this program. Test it in a shell or console window. It should work the very same without the IDE. Yay! Now you know how
+		to become independent of the IDE!  (Note that you may have to press Ctrl-C at the command line to kill the program.  This is because some code has been omitted for simplicity of the example.)
+	</li><br><br>
 
-		</script>
-</body>
+	<li><b>Submit your code from step 9 to receive credit:</b> Delete Assignment1.class. Make a zip archive containing a folder with only your
+		source code in it. On Linux, the command to make a zip file is:
+<pre class="code">zip -r -9 Assignment1.zip Assignment1.java build.bash
+</pre>
+		This will create a zip file named "Assignment1.zip" containing files "Assignment1.java" and "biuld.bash" (assuming they existed in the directory the command was run from). If you don't know how to make a zip archive on
+		your favorite operating system, try using Google to find some instructions.<br><br>
 
-</html>
+		The zip archive you submit should contain Assignment1.java and your build script. It should NOT contain any other files.
+		Before you submit your archive file, make sure it still works. Try unzipping your archive into another folder. Make sure it
+		contains only those two files, and no files with a ".class" extension. Run your script. Did
+		it work? If not, figure out what is wrong and fix it. If your code does not work, the grader will not debug it--that's your job.
+		Finally, go the course web site on Blackboard (<a href="https://learn.uark.edu">https://learn.uark.edu/</a>) and submit your zip archive for Assignment1.
+	</li><br><br>
+	
+	<li>Here is the rubrick the grader will use, so make sure your code meets each of these requirements.  Please keep in mind that this is a very large class and the TA does not have time to fix your code, rename files, etc.:
+		<ol>
+			<li>Does the submission consist of a single zip file named Assignment1.zip?  If not, deduct 20 points.</li>
+			<li>Does the zip file contain exactly Assignment1.java and build.bat (or build.bash)?  If not, deduct 20 points.</li>
+			<li>Does the build script have the correct commands to build and run the code?  If not, deduct 10 points.</li>
+			<li><b>Does the code compile? If not, give the student a 10%.</b></li>
+			<li>Does the Java program execute correctly.  If not, deduct 10 points.</li>
+		</ol>
+		</li><br><br>
+</ol>
+
+</td></tr></tbody></table>
+
+</body></html>
