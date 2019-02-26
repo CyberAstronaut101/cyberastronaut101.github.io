@@ -32,6 +32,10 @@ section {
   overflow: hidden;
 }
 
+portfolio_section {
+  height:120vh;
+}
+
 section.intro {
   text-align: center;
 }
@@ -237,7 +241,7 @@ body.dragging .nav-pointer {
   parallax-window
 ------------------------*/
 .parallax-window {
-    min-height: 200px;
+    min-height: 225px;
     background: transparent;
 }
 
