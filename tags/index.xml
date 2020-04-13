@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mason Computers</title>
-    <link>http://masoncomputers.com/tags/</link>
+    <link>https://ejmason101.github.io/tags/</link>
     <description>Recent content in Tags on Mason Computers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Jul 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://masoncomputers.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ejmason101.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>change</title>
-      <link>http://masoncomputers.com/tags/change/</link>
+      <link>https://ejmason101.github.io/tags/change/</link>
       <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://masoncomputers.com/tags/change/</guid>
+      <guid>https://ejmason101.github.io/tags/change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>my</title>
-      <link>http://masoncomputers.com/tags/my/</link>
+      <link>https://ejmason101.github.io/tags/my/</link>
       <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://masoncomputers.com/tags/my/</guid>
+      <guid>https://ejmason101.github.io/tags/my/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tags</title>
-      <link>http://masoncomputers.com/tags/tags/</link>
+      <link>https://ejmason101.github.io/tags/tags/</link>
       <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://masoncomputers.com/tags/tags/</guid>
+      <guid>https://ejmason101.github.io/tags/tags/</guid>
       <description></description>
     </item>
     
