@@ -34,5 +34,14 @@ Github Pages is a static hosting service that is able to host HTML, CSS, and Jav
 You do not need to have a custom domain if you want to use the GitHub Pages service, your personal site https://ejmason101.github.io will still resolve. This write up is intended to be used as a guide to add any domain to point to the your static site on GitHub Pages</description>
     </item>
     
+    <item>
+      <title>Topics</title>
+      <link>https://masoncomputers.com/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/</guid>
+      <description>List of Topics#github #github_pages #google_domains #mason_computers #rig #static_website #web_dev  </description>
+    </item>
+    
   </channel>
 </rss>

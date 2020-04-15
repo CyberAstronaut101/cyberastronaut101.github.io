@@ -8,22 +8,17 @@
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/aboutme/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://masoncomputers.com/tags/github/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/githubpages/</loc>
+    <loc>https://masoncomputers.com/tags/github_pages/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/googledomains/</loc>
+    <loc>https://masoncomputers.com/tags/google_domains/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,17 +28,7 @@
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/masoncomputers/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://masoncomputers.com/tags/mydesk/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://masoncomputers.com/tags/myrig/</loc>
+    <loc>https://masoncomputers.com/tags/mason_computers/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +38,12 @@
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/staticwebsite/</loc>
+    <loc>https://masoncomputers.com/tags/rig/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/tags/static_website/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,7 +53,7 @@
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/webdevelopment/</loc>
+    <loc>https://masoncomputers.com/tags/web_dev/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,6 +64,10 @@
   
   <url>
     <loc>https://masoncomputers.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/tags/</loc>
   </url>
   
 </urlset>

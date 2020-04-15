@@ -13,15 +13,6 @@
     
     
     <item>
-      <title>AboutMe</title>
-      <link>https://masoncomputers.com/tags/aboutme/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masoncomputers.com/tags/aboutme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GitHub</title>
       <link>https://masoncomputers.com/tags/github/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
@@ -31,65 +22,56 @@
     </item>
     
     <item>
-      <title>GitHubPages</title>
-      <link>https://masoncomputers.com/tags/githubpages/</link>
+      <title>github_pages</title>
+      <link>https://masoncomputers.com/tags/github_pages/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/githubpages/</guid>
+      <guid>https://masoncomputers.com/tags/github_pages/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>GoogleDomains</title>
-      <link>https://masoncomputers.com/tags/googledomains/</link>
+      <title>Google_Domains</title>
+      <link>https://masoncomputers.com/tags/google_domains/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/googledomains/</guid>
+      <guid>https://masoncomputers.com/tags/google_domains/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MasonComputers</title>
-      <link>https://masoncomputers.com/tags/masoncomputers/</link>
+      <title>Mason_Computers</title>
+      <link>https://masoncomputers.com/tags/mason_computers/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/masoncomputers/</guid>
+      <guid>https://masoncomputers.com/tags/mason_computers/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MyDesk</title>
-      <link>https://masoncomputers.com/tags/mydesk/</link>
+      <title>rig</title>
+      <link>https://masoncomputers.com/tags/rig/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/mydesk/</guid>
+      <guid>https://masoncomputers.com/tags/rig/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MyRig</title>
-      <link>https://masoncomputers.com/tags/myrig/</link>
+      <title>static_website</title>
+      <link>https://masoncomputers.com/tags/static_website/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/myrig/</guid>
+      <guid>https://masoncomputers.com/tags/static_website/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>StaticWebsite</title>
-      <link>https://masoncomputers.com/tags/staticwebsite/</link>
+      <title>web_dev</title>
+      <link>https://masoncomputers.com/tags/web_dev/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/staticwebsite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WebDevelopment</title>
-      <link>https://masoncomputers.com/tags/webdevelopment/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masoncomputers.com/tags/webdevelopment/</guid>
+      <guid>https://masoncomputers.com/tags/web_dev/</guid>
       <description></description>
     </item>
     
