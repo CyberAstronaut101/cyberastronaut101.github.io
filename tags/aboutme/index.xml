@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AboutMe on Mason Computers</title>
+    <link>https://masoncomputers.com/tags/aboutme/</link>
+    <description>Recent content in AboutMe on Mason Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MASON COMPUTERS</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masoncomputers.com/tags/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me - All Things Tech</title>
+      <link>https://masoncomputers.com/about-me/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/about-me/</guid>
+      <description>MASON COMPUTERS spawned in 2014 when I began my journey into computer programming. Now that I am about to graduate with my B.S. in Computer Science with a focus in Cyber Security, the time has come to give this site a purpose.
+Interested in All Things Tech. If something has electricity flowing, there is a good chance that I have experience tinkering with it.
+During my extended time at home due to COVID-19, I have found myself picking up forgotten projects.</description>
+    </item>
+    
+    <item>
+      <title>MASON COMPUTERS Homepage</title>
+      <link>https://masoncomputers.com/</link>
+      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/</guid>
+      <description>button, .paper-btn, [type=&#34;button&#34;] {border-bottom-left-radius: 15px 255px;border-bottom-right-radius: 225px 15px;border-top-left-radius: 255px 15px;border-top-right-radius: 15px 225px;transition: all 235ms ease 0s;box-shadow: 15px 28px 25px -18px white;transition: all 235ms ease-in-out 0s;align-self: center;border: 2px solid white;cursor: pointer;display: inline-block;font-size: 2rem;outline: none;padding: 0.75rem;margin: 25px;}.row.flex-center {justify-content: center;}.row {display: flex;flex-flow: row wrap;margin-bottom: 1rem;margin-left: auto;margin-right: auto;}*, ::before, ::after {box-sizing: inherit;}button:hover, .</description>
+    </item>
+    
+  </channel>
+</rss>

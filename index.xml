@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mason Computers</title>
+    <title>MASON COMPUTERS Homepage on Mason Computers</title>
     <link>https://masoncomputers.com/</link>
-    <description>Recent content on Mason Computers</description>
+    <description>Recent content in MASON COMPUTERS Homepage on Mason Computers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>MASON COMPUTERS</copyright>
     <lastBuildDate>Wed, 18 Jul 2012 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masoncomputers.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Showcase</title>
-      <link>https://masoncomputers.com/posts/showcase/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://masoncomputers.com/posts/showcase/</guid>
-      <description>Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.</description>
-    </item>
-    
-    <item>
       <title>About Me - All Things Tech</title>
       <link>https://masoncomputers.com/about-me/</link>
-      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://masoncomputers.com/about-me/</guid>
-      <description>MASON COMPUTERS spawned in 2014 when I began my journey in software development. Now that I am about to graduate with my B.S. in Computer Science with a focus in Cyber Security, the time has come to give this site a purpose.
-On this site I am going to try to keep up to date notes, tutorials, and logs for the projects I am currently working on.
- The site is built using Hugo, a static site generator.</description>
+      <description>MASON COMPUTERS spawned in 2014 when I began my journey into computer programming. Now that I am about to graduate with my B.S. in Computer Science with a focus in Cyber Security, the time has come to give this site a purpose.
+Interested in All Things Tech. If something has electricity flowing, there is a good chance that I have experience tinkering with it.
+During my extended time at home due to COVID-19, I have found myself picking up forgotten projects.</description>
     </item>
     
     <item>
-      <title>Default Generic Post</title>
-      <link>https://masoncomputers.com/posts/welcome/</link>
-      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      <title>How to Setup Github Pages with Custom Domain Name</title>
+      <link>https://masoncomputers.com/posts/github-pages/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/posts/welcome/</guid>
-      <description></description>
+      <guid>https://masoncomputers.com/posts/github-pages/</guid>
+      <description>This article details the steps needed to add a custom domain name to a github pages website.
+Github Pages is a static hosting service that is able to host HTML, CSS, and JavaScript from a git repository on GitHub.
+You do not need to have a custom domain if you want to use the GitHub Pages service, your personal site https://ejmason101.github.io will still resolve. This write up is intended to be used as a guide to add any domain to point to the your static site on GitHub Pages</description>
     </item>
     
   </channel>

@@ -6,35 +6,90 @@
     <description>Recent content in Tags on Mason Computers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <copyright>MASON COMPUTERS</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masoncomputers.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>change</title>
-      <link>https://masoncomputers.com/tags/change/</link>
-      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      <title>AboutMe</title>
+      <link>https://masoncomputers.com/tags/aboutme/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/change/</guid>
+      <guid>https://masoncomputers.com/tags/aboutme/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>my</title>
-      <link>https://masoncomputers.com/tags/my/</link>
-      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      <title>GitHub</title>
+      <link>https://masoncomputers.com/tags/github/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/my/</guid>
+      <guid>https://masoncomputers.com/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tags</title>
-      <link>https://masoncomputers.com/tags/tags/</link>
-      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      <title>GitHubPages</title>
+      <link>https://masoncomputers.com/tags/githubpages/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/tags/tags/</guid>
+      <guid>https://masoncomputers.com/tags/githubpages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GoogleDomains</title>
+      <link>https://masoncomputers.com/tags/googledomains/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/googledomains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MasonComputers</title>
+      <link>https://masoncomputers.com/tags/masoncomputers/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/masoncomputers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MyDesk</title>
+      <link>https://masoncomputers.com/tags/mydesk/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/mydesk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MyRig</title>
+      <link>https://masoncomputers.com/tags/myrig/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/myrig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StaticWebsite</title>
+      <link>https://masoncomputers.com/tags/staticwebsite/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/staticwebsite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebDevelopment</title>
+      <link>https://masoncomputers.com/tags/webdevelopment/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/tags/webdevelopment/</guid>
       <description></description>
     </item>
     

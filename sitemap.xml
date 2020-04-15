@@ -3,47 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://masoncomputers.com/posts/</loc>
-    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://masoncomputers.com/posts/showcase/</loc>
-    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://masoncomputers.com/about-me/</loc>
-    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/change/</loc>
-    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+    <loc>https://masoncomputers.com/tags/aboutme/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/posts/welcome/</loc>
-    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+    <loc>https://masoncomputers.com/tags/github/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/</loc>
-    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+    <loc>https://masoncomputers.com/tags/githubpages/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/my/</loc>
-    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+    <loc>https://masoncomputers.com/tags/googledomains/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/posts/github-pages/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/tags/masoncomputers/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/tags/mydesk/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/tags/myrig/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/posts/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/tags/staticwebsite/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://masoncomputers.com/tags/</loc>
-    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://masoncomputers.com/tags/tags/</loc>
+    <loc>https://masoncomputers.com/tags/webdevelopment/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://masoncomputers.com/</loc>
     <lastmod>2012-07-18T00:00:00+00:00</lastmod>
   </url>
   
