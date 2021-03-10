@@ -7,17 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MASON COMPUTERS</copyright>
-    <lastBuildDate>Wed, 18 Jul 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://masoncomputers.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 18 Jul 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://masoncomputers.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UniFi Controller on Raspberry Pi</title>
+      <link>https://masoncomputers.com/posts/unifi-homelab/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/posts/unifi-homelab/</guid>
+      <description>This article details the steps to install a UniFi controller on a raspberry pi.
+Quick Jump   Prepare Raspberry Pi UniFi Controller Install UniFi Controller Setup   Prepare Rasbperry Pi sudo apt update sudo apt upgrade Install Java JDK
+sudo apt install openjdk-8-jre-headless Install and enable rng-tools for random number generation within the UniFi software
+sudo apt install rng-tools sudo nano /etc/default/rng-tools // Uncomment line HRNGDEVICE=/dev/hwrng sudo systemctl restart rng-tools Install UniFi Controller Add UniFi repo to apt sources list</description>
+    </item>
     
     <item>
       <title>About Me - All Things Tech</title>
-      <link>https://masoncomputers.com/posts/about-me/</link>
+      <link>https://masoncomputers.com/about-me/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masoncomputers.com/posts/about-me/</guid>
+      <guid>https://masoncomputers.com/about-me/</guid>
       <description>MASON COMPUTERS spawned in 2014 when I began my journey into computer programming. Now that I am about to graduate with my B.S. in Computer Science with a focus in Cyber Security, the time has come to give this site a purpose.
 Interested in All Things Tech. If something has electricity flowing, there is a good chance that I have experience tinkering with it.
 During my extended time at home due to COVID-19, I have found myself picking up forgotten projects.</description>
@@ -35,12 +43,23 @@ You do not need to have a custom domain if you want to use the GitHub Pages serv
     </item>
     
     <item>
+      <title>About Me - All Things Tech</title>
+      <link>https://masoncomputers.com/posts/about-me/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/posts/about-me/</guid>
+      <description>MASON COMPUTERS spawned in 2014 when I began my journey into computer programming. Now that I am about to graduate with my B.S. in Computer Science with a focus in Cyber Security, the time has come to give this site a purpose.
+Interested in All Things Tech. If something has electricity flowing, there is a good chance that I have experience tinkering with it.
+During my extended time at home due to COVID-19, I have found myself picking up forgotten projects.</description>
+    </item>
+    
+    <item>
       <title>Topics</title>
       <link>https://masoncomputers.com/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://masoncomputers.com/tags/</guid>
-      <description>List of Topics#github #github_pages #google_domains #mason_computers #rig #static_website #web_dev  </description>
+      <description>List of TopicsTopics#github #github_pages #google_domains #mason_computers #raspberrypi #rig #static_website #unifi #web_dev  </description>
     </item>
     
   </channel>

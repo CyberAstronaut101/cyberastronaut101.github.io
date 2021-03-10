@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UniFi on Mason Computers</title>
+    <link>https://masoncomputers.com/tags/unifi/</link>
+    <description>Recent content in UniFi on Mason Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MASON COMPUTERS</copyright>
+    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://masoncomputers.com/tags/unifi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UniFi Controller on Raspberry Pi</title>
+      <link>https://masoncomputers.com/posts/unifi-homelab/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://masoncomputers.com/posts/unifi-homelab/</guid>
+      <description>This article details the steps to install a UniFi controller on a raspberry pi.
+Quick Jump   Prepare Raspberry Pi UniFi Controller Install UniFi Controller Setup   Prepare Rasbperry Pi sudo apt update sudo apt upgrade Install Java JDK
+sudo apt install openjdk-8-jre-headless Install and enable rng-tools for random number generation within the UniFi software
+sudo apt install rng-tools sudo nano /etc/default/rng-tools // Uncomment line HRNGDEVICE=/dev/hwrng sudo systemctl restart rng-tools Install UniFi Controller Add UniFi repo to apt sources list</description>
+    </item>
+    
+  </channel>
+</rss>

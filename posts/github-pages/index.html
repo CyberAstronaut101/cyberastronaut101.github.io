@@ -125,33 +125,6 @@ You do not need to have a custom domain if you want to use the GitHub Pages serv
         
       
       
-        <ul class="menu__sub-inner">
-          <li class="menu__sub-inner-more-trigger">More ▾</li>
-
-          <ul class="menu__sub-inner-more hidden">
-            
-              
-
-
-                <li><a href="/tags">HAM Radio</a></li>
-
-              
-
-
-            
-
-            
-            
-
-            <li><a href="http://dbms.masoncomputers.com" target="_blank">DBMS Project</a></li>
-
-            <li><a href="https://github.com/ejmason101" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/emason101/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://stackoverflow.com/users/4443812/elliot?tab=profile" target="_blank">Stack Overflow</a></li>
-
-          </ul>
-        </ul>
-      
     
 
     
@@ -169,10 +142,6 @@ You do not need to have a custom domain if you want to use the GitHub Pages serv
     
       
         <li><a href="/tags">Topics</a></li>
-      
-    
-      
-        <li><a href="/tags">HAM Radio</a></li>
       
     
     
@@ -272,7 +241,7 @@ git push origin master
 <blockquote>
 <p>Note: HTTPS is not enabled yet, but you can <a href="#enabling-https">enable HTTPS</a></p>
 </blockquote>
-<h1 id="domain-dns-settings">Domain DNS Settings<a href="#domain-dns-settings" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h3 id="domain-dns-settings">Domain DNS Settings<a href="#domain-dns-settings" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <hr>
 <p>You will need to update your DNS settings for your domain name, which require you to login to your domain provider. Since I am using google domains, <code>domains.google.com</code>.</p>
 <p>Navigate to your <code>DNS</code> settings on the left nav bar to add the required resource records.</p>
@@ -296,7 +265,7 @@ git push origin master
 <blockquote>
 <p>Note: The IP&rsquo;s shows in this picture may be outdated. To get the current IP&rsquo;s check <a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site/?target=_blank" target="_blank">Github Pages Documentation</a>.</p>
 </blockquote>
-<h2 id="adding-cname-record">Adding CNAME Record<a href="#adding-cname-record" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="adding-cname-record">Adding CNAME Record<a href="#adding-cname-record" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <p>Then add a <code>CNAME</code> record, replacing the address (<code>ejmason101.github.io</code>) with the one you are working with.</p>
 
   <figure class="left" >
@@ -329,7 +298,7 @@ ejmason101.github.io.   <span style="color:#ae81ff">3599</span>    IN      A    
 
 <p>Once this resolves, remove the custom domain, save, then re-enable HTTPS and add the custom domain name again</p>
 <blockquote>
-<p>Note: If you get the <code>NX_INVALID_CERT</code> error when you try to visit your website after enabling HTTPS: 
+<p>Note: If you get the <code>NX_INVALID_CERT</code> error when you try to visit your website after enabling HTTPS:
 Clear browser cache. What happened here was that your domain might have already had a different HTTPS cert associated with it that was there before you moved to github pages. Since its the same domain name, but two different certs this is a warning about a possible man in the middle (MITM) attack because of the cert change.</p>
 </blockquote>
 
@@ -344,12 +313,19 @@ Clear browser cache. What happened here was that your domain might have already 
     <div class="pagination__buttons">
       
       <span class="button previous">
-        <a href="https://masoncomputers.com/posts/about-me/">
+        <a href="https://masoncomputers.com/posts/unifi-homelab/">
           <span class="button__icon">←</span>
-          <span class="button__text">About Me - All Things Tech</span>
+          <span class="button__text">UniFi Controller on Raspberry Pi</span>
         </a>
       </span>
       
+      
+      <span class="button next">
+        <a href="https://masoncomputers.com/posts/about-me/">
+          <span class="button__text">About Me - All Things Tech</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
       
     </div>
   </div>
@@ -366,7 +342,7 @@ Clear browser cache. What happened here was that your domain might have already 
   <div class="footer__inner" >
     
       <div class="copyright copyright--user">
-        <span>MASON COMPUTERS © 2020 :: Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>MASON COMPUTERS © 2021 :: Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>
