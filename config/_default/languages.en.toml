@@ -7,8 +7,8 @@ rtl = false
 
 title = "Mason Computers"
 # logo = "images//logo.jpg"
-description = "My awesome website"
-copyright = "Copy, _right?_ :thinking_face:"
+description = ""
+copyright = "copyright"
 
 dateFormat = "2 January 2006"
 
