@@ -2,7 +2,6 @@
 title: "home"
 ---
 
-MASON COMPUTERS spawned in 2014 when I started my first HTML/JS class.
-Since then INow that I am about to graduate with my B.S. in Computer Science with a focus in Cyber Security, the time has come to give this site a purpose.
+MASON COMPUTERS spawned in 2014 when I started my development journey with a HTML/JS class on Udemy. I was hooked to say the least, and since then I have had a wide range of experiences that have shaped me into the maker I am today.
 
-Interested in All Things Tech. If something has electricity flowing, there is a good chance that I have experience tinkering with it.  
+I have recently graduated with my B.S. in Computer Science, and now have found time to finish the pile of projects I have started on but never finished due to having to focus on school. I am currently working on a few projects, and will be posting them here as I finish them.
