@@ -4,11 +4,14 @@ baseURL = "https://masoncomputers.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 0
 
-googleAnalytics = "G-80Y6XJKWK5"
+# Hugo 0.128+: paginate key replaced by [pagination].pagerSize
+[pagination]
+  pagerSize = 10
 
+# Kept from prior site config (GA4)
+googleAnalytics = "G-80Y6XJKWK5"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
